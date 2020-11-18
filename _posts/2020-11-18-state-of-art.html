@@ -1,31 +1,14 @@
-<?php 
-	// PAGE VARIABLES
-	// Enter values for the variables below
-	$page_title = "State of the Art Hearing Aid Technology";
-	$page_category = "hearing_aids";
-	$page_description = "";
-	$page_keywords = "";
-?>
-
-<!-- HEAD -->
-<?php include '../layout/head.php'; ?>
-<!-- END HEAD -->
-
-<!-- NAVIGATION -->
-<?php include '../layout/navigation.php'; ?>
-<!-- END NAVIGATION -->
-
-<div class="content">
-	<header>
-		<h1><?php print $page_title; ?></h1>
-	</header>
-	<div class="container">
-		<div class="intro">
-			<p class="lead"></p>
-		</div>
-		<div class="col-sm-8" id="accordion">
+---
+title: State of the Art Hearing Aid Technology
+subtitle: Every major hearing instrument manufacturer has a complete product line that can significantly improve hearing in all listening situations.
+summary: 
+image_url: /assets/images/besthearingaid.jpg
+featured: false
+category: Hearing Aids
+---
+		<div class="col-sm-10 mx-auto" id="accordion">
 			<h2>What is the Best Hearing Aid?</h2>
-			<img src="../images/besthearingaid.jpg" alt="best type of hearing aid?" class="img-responsive center-block">
+			<img src="{{'assets/images/besthearingaid.jpg' | relative_url}}" alt="best type of hearing aid?" class="img-responsive center-block">
 			<hr class="divide">
 			<p>I am often asked, “What is the best hearing aid?” Honestly, this is an impossible question to answer. Every major hearing instrument manufacturer has a complete product line that can significantly improve hearing in all listening situations. Each offers a wide variety of styles and power ranges with many features and benefits. So, what is the best hearing aid?</p>
 			<p>The simple answer is that they all make the best products AND none of them make the best products. Let me explain...</p>
@@ -44,7 +27,7 @@
 			<p>Each features significant improvements in understanding speech in noisy and challenging listening environments. Additionally, advancements in connectivity make it even simpler to access signals from the audio devices you use daily. Here is a closer look at these new technologies.</p>
 			<h3><a data-toggle="collapse" data-parent="#accordion" href="#oticon">Oticon <i class="glyphicon glyphicon-menu-down"></i></a></h3>
 			<div class="collapse" id="oticon">
-				<a target="_blank" href="http://www.oticon.com/solutions/"><img src="../images/oticonlogo.jpg" alt="oticon hearing aids" class="img-responsive center-block"></a>
+				<a target="_blank" href="http://www.oticon.com/solutions/"><img src="{{'assets/images/oticonlogo.jpg' | relative_url}}" alt="oticon hearing aids" class="img-fluid mx-auto d-block"></a>
 				<h4>Oticon’s new designRITE™</h4>
 				<p>Oticon’s new designRITE™ product line features the latest version of the Inium microchip’s brain-based hearing technology. These receiver-in-the-canal style hearing instruments use the innovative Youmatic system. Youmatic is an interactive question and answer process that addresses each patient’s cognitive abilities, sound perception and listening needs. The complex algorithm analyzes the information to provide a customized hearing aid response. This results in improved audibility and understanding in all listening environments.</p>
 				<h4>Spatial Sound 2.0</h4>
@@ -55,7 +38,7 @@
 			<hr class="divide">
 			<h3><a data-toggle="collapse" data-parent="#accordion" href="#siemens">Siemens <i class="glyphicon glyphicon-menu-down"></i></a></h3>
 			<div class="collapse" id="siemens">
-				<a target="_blank" href="https://pro.signiausa.com/signia-hearing-product-portfolio/"><img src="../images/siemenslogo.jpg" alt="siemens hearing aids" class="img-responsive center-block"></a>
+				<a target="_blank" href="https://pro.signiausa.com/signia-hearing-product-portfolio/"><img src="{{'assets/images/siemenslogo.jpg' | relative_url}}" alt="siemens hearing aids" class="img-fluid mx-auto d-block"></a>
 				<p class="lead">Effortless hearing across the range with Siemens <strong>primax™</strong>. </p>
 				<p>Whatever the situation or preference – RIC, BTE, or ITE – Siemens offers the natural ease of listening all day long with primax™.</p>
 				<p>Outstanding primax hearing aid technology is available in performance levels 7px, 5px, and 3px. From Ace™ primax and Pure® primax RICs to Motion® primax standard BTEs and Insio™ primax ITEs, there’s a perfect hearing aid for almost every hearing loss. Plus, with its CROS Pure solution, primax also offers wearers with unaidable hearing loss in one ear easier all-around listening.</p>
@@ -64,7 +47,7 @@
 			<hr class="divide">
 			<h3><a data-toggle="collapse" data-parent="#accordion" href="#phonak">Phonak <i class="glyphicon glyphicon-menu-down"></i></a></h3>
 			<div class="collapse" id="phonak">
-				<a target="_blank" href="https://www.phonak.com/us/en/hearing-aids.html"><img src="../images/phonaklogo.jpg" alt="Phonak hearing aids" class="img-responsive center-block"></a>
+				<a target="_blank" href="https://www.phonak.com/us/en/hearing-aids.html"><img src="{{'assets/images/phonaklogo.jpg' | relative_url}}" alt="Phonak hearing aids" class="img-fluid mx-auto d-block"></a>
 				<p class="lead">Phonak has introduced the new <strong>Venture operating system</strong> for its Audeo V™ behind-the-ear product line.</p>
 				<p>The Audeo V can be fitted to those whose hearing losses range from mild to severe. Placing the receiver/speaker in the earmold makes the hearing aid about one-half the size of more conventional behind-the-ear products.</p>
 				<h4>Audeo V’s Autosense Operating System</h4>
@@ -77,11 +60,3 @@
 			<hr class="divide">
 			<p class="lead">Those who I have fitted with these new technologies are reporting that the performance exceeds their expectations. If you have not upgraded your hearing instruments in the past three years, I encourage you to come in for a demonstration.</p>
 		</div>
-		<!-- More resources partial -->
-		<?php include '../layout/more_articles_sidebar.php'; ?>
-	</div>
-</div>
-
-<!-- FOOTER -->
-<?php include '../layout/footer.php'; ?>
-<!-- END FOOTER -->

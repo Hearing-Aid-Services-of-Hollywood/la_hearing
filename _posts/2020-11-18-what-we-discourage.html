@@ -1,34 +1,17 @@
-<?php 
-	// PAGE VARIABLES
-	// Enter values for the variables below
-	$page_title = "Purchasing Hearing Aids: What We Discourage";
-	$page_category = "hearing_aids";
-	$page_description = "";
-	$page_keywords = "";
-?>
-
-<!-- HEAD -->
-<?php include '../layout/head.php'; ?>
-<!-- END HEAD -->
-
-<!-- NAVIGATION -->
-<?php include '../layout/navigation.php'; ?>
-<!-- END NAVIGATION -->
-
-<div class="content">
-	<header>
-		<h1><?php print $page_title; ?></h1>
-	</header>
-	<div class="container">
-		<div class="intro">
-			<p class="lead">Fitting hearing aids is a process that requires a keen understanding of how each patient’s ears perceive sound. Audiologists have been trained through an intensive six-year curriculum to identify and provide remediation for hearing impairments.</p>
-		</div>
-		<div class="col-sm-8">
-			<h3>Please view our article about purchasing hearing aids in our newsletter <a href="../files/newsletters/newsletter47.pdf">here</a>.</h3>
+---
+title: "Purchasing Hearing Aids: What We Discourage"
+subtitle: "People have become accustomed to purchasing electronic equipment by mail or on the Internet. Is this a good choice to make when you are ready to buy hearing aids?"
+summary: 
+image_url: /assets/images/throwaway.jpg
+featured: false
+category: Hearing Aids
+---
+		<div class="col-sm-10 mx-auto">
+			<h3>Please view our article about purchasing hearing aids in our newsletter <a href="{% post_url 2020-11-17-how-to-purchase %}">here</a>.</h3>
 			<div class="content-group row">
 				<h2>Mail Order and Internet Hearing Aids</h2>
 				<div class="col-sm-4">
-					<img src="../images/throwaway.jpg" alt="" class="img-responsive center-block img-thumbnail">
+					<img src="{'assets/images/throwaway.jpg' | relative_url }}" alt="" class="img-fluid d-block img-thumbnail mx-auto">
 				</div>
 				<div class="col-sm-8">
 					<p>People have become accustomed to purchasing electronic equipment by mail or on the Internet. Is this a good choice to make when you are ready to buy hearing aids? Let’s review your options. You can select an audiologist to guide you through the procedure, purchase hearing aids by mail or purchase through a wholesaler on the Internet.</p>
@@ -52,7 +35,7 @@
 			<div class="content-group row">
 				<h2>Extended Wear Hearing Aids</h2>
 				<div class="col-sm-4">
-					<img src="../images/pondering.jpg" alt="" class="img-responsive center-block img-thumbnail">
+					<img src="{{'assets/images/pondering.jpg' | relative_url}}" alt="" class="img-fluid d-block img-thumbnail mx-auto">
 				</div>
 				<div class="col-sm-8">
 					<p>Recently, you may have seen ads praising the virtues of new hearing aids that fit deep within the ear canal. These devices, called extended wear hearing aids (EWHAs), were developed in response to patient demand for a solution to hearing loss that is completely invisible. I agree that the deep placement of EWHAs makes them essentially unnoticeable, and the sound quality is acceptable. However, I have some serious concerns about the performance and potential side effects of this technology.</p>
@@ -66,11 +49,3 @@
 				<p>EWHAs are in their infancy, but you should be aware that the hearing aid industry is working enthusiastically to advance this technology and to solve the problems outlined above. Only when they have evolved to meet higher standards will I offer them to my patients.</p>
 			</div>
 		</div>
-		<!-- More resources partial -->
-		<?php include '../layout/more_articles_sidebar.php'; ?>
-	</div>
-</div>
-
-<!-- FOOTER -->
-<?php include '../layout/footer.php'; ?>
-<!-- END FOOTER -->

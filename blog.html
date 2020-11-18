@@ -3,7 +3,7 @@ layout: default
 title: News & Articles
 ---
 <div class="blog"> 
-    <div class="page-header">
+    <div class="page-header mb-0">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-sm-6 mx-auto">
@@ -34,11 +34,11 @@ title: News & Articles
                                                 <h5>{{post.title}}</h5>
                                                 <p>
                                                     {% if post.summary.size > 0 %}
-                                                        {{ post.summary }}
+                                                        {{ post.summary | truncate: 100}}
                                                     {% elsif post.subtitle.size > 0 %}
-                                                        {{ post.subtitle }}
+                                                        {{ post.subtitle | truncate: 100}}
                                                     {% else %}
-                                                        {{ post.content | strip_html | truncate: 150 }}
+                                                        {{ post.content | strip_html | truncate: 100 }}
                                                     {% endif %}
                                                 </p>
                                             </div>
@@ -72,7 +72,7 @@ title: News & Articles
                         {% if site.posts.size > 0 %}
                             {% assign more_posts = site.posts | where_exp: "post", "post.featured != 'true'" %}
                             {% for post in more_posts %}
-                                <div class="post-preview">
+                                <div class="post-preview {{post.category | slugify}}">
                                     <a class="row" href="{{ post.url }}">
                                         <div class="col-2">
                                             <div class="img" style="background-image: url('{{post.image_url | relative_url}}');"></div>
@@ -92,8 +92,8 @@ title: News & Articles
                                             </h4>
                                         </div>
                                     </a>
+                                    <hr>
                                 </div>
-                                <hr>
                             {% endfor %}
                         {% else %}
                             <h2 class="text-center">No Posts Yet...</h2> 
@@ -109,16 +109,12 @@ title: News & Articles
         $('.category').click(function(){
             event.preventDefault();
             var category = $(this).attr('id');
-            $("#filtered_posts .post-preview").removeClass("visible");
-            $("."+category).addClass("visible");
-            $.ajax({
-                url:"<?php print WEB_ROOT.'posts/filter';?>",
-                method:"POST",
-                data:{category:category},
-                success:function(data){
-                    $('#filtered_posts').html(data);
-                }
-            });
+            if (category == "all_posts") {
+                $("#filtered_posts .post-preview").removeClass("d-none");
+            } else {
+                $("#filtered_posts .post-preview").addClass("d-none");
+                $('.'+category).removeClass("d-none");
+            }
         });
     });
 </script>

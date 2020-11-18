@@ -1,5 +1,5 @@
 ---
-title: Your Hearing Ability
+title: Understanding Your Hearing Ability
 subtitle: "Your hearing ability is the direct result of the interaction between two systems: the ears and the brain."
 summary: 
 image_url: /assets/images/hearing-ability.jpg

@@ -1,31 +1,14 @@
-<?php 
-	// PAGE VARIABLES
-	// Enter values for the variables below
-	$page_title = "Is It Time To Upgrade Your Hearing Aids";
-	$page_category = "hearing_aids";
-	$page_description = "";
-	$page_keywords = "";
-?>
-
-<!-- HEAD -->
-<?php include '../layout/head.php'; ?>
-<!-- END HEAD -->
-
-<!-- NAVIGATION -->
-<?php include '../layout/navigation.php'; ?>
-<!-- END NAVIGATION -->
-
-<div class="content">
-	<header>
-		<h1><?php print $page_title; ?></h1>
-	</header>
-	<div class="container">
-		<div class="intro">
-			<p class="lead">Today’s hearing products were inconceivable even a few years ago, That’s why replacement should be considered for any instrument older than three years.</p>
-		</div>
-		<div class="col-sm-8">
+---
+title: Is It Time To Upgrade Your Hearing Aids
+subtitle: Today’s hearing products were inconceivable even a few years ago, That’s why replacement should be considered for any instrument older than three years.
+summary: 
+image_url: /assets/images/hearing-aid-hand.jpg
+featured: false
+category: Hearing Aids
+---
+		<div class="col-sm-10 mx-auto">
 			<div class="col-sm-12">
-				<img src="../images/hearing-aid-hand.jpg" alt="Micro Hearing Instruments" class="img-responsive center-block img-thumbnail">
+				<img src="{{'assets/images/hearing-aid-hand.jpg' | relative_url}}" alt="Micro Hearing Instruments" class="img-fluid d-block mx-auto img-thumbnail">
 				<hr class="divide">
 			</div>
 			<p>Over the last four decades, my patients have asked the question, “When is it time to upgrade my hearing aids?” My typical response has been that every  ve to seven years was a good rule of thumb because product development moved at a constant, albeit slow, pace.</p>
@@ -44,11 +27,3 @@
 			<p class="lead">Current technology now provides clearer and more natural sound, significantly better understanding in noisy environments, phone connectivity, more comfort, and smaller size. Taken individually or in combination, these improvements have been life-changing for those who have already upgraded their devices.</p>
 			<p class="lead">Now is the time to move up to a truly remarkable listening experience. I encourage you to <strong><a href="#" data-toggle="modal" data-target="#appointments_modal">schedule an appointment</a></strong> for a demonstration.</p>
 		</div>
-		<!-- More resources partial -->
-		<?php include '../layout/more_articles_sidebar.php'; ?>
-	</div>
-</div>
-
-<!-- FOOTER -->
-<?php include '../layout/footer.php'; ?>
-<!-- END FOOTER -->

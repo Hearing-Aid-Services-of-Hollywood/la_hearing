@@ -1,30 +1,13 @@
-<?php 
-	// PAGE VARIABLES
-	// Enter values for the variables below
-	$page_title = "Realistic Expectations";
-	$page_category = "questions_answers";
-	$page_description = "";
-	$page_keywords = "";
-?>
-
-<!-- HEAD -->
-<?php include '../layout/head.php'; ?>
-<!-- END HEAD -->
-
-<!-- NAVIGATION -->
-<?php include '../layout/navigation.php'; ?>
-<!-- END NAVIGATION -->
-
-<div class="content">
-	<header>
-		<h1><?php print $page_title; ?></h1>
-	</header>
-	<div class="container">
-		<div class="intro">
-			<p class="lead">Together, you and your audiologist will determine the appropriate hearing aids for you based on your degree of hearing loss, lifestyle and budget.</p>
-		</div>
-		<div class="col-sm-8">
-			<img class="img-responsive" src="../images/realisticexpectations.jpg" alt="Hearing aid expectations" />
+---
+title: Realistic Expectations
+subtitle: Together, you and your audiologist will determine the appropriate hearing aids for you based on your degree of hearing loss, lifestyle and budget.
+summary: 
+image_url: /assets/images/realisticexpectations.jpg
+featured: false
+category: Questions & Answers
+---
+		<div class="col-sm-10 mx-auto">
+			<img class="img-fluid" src="{{'assets/images/realisticexpectations.jpg' | relative_url}}" alt="Hearing aid expectations" />
 			<h2>At the time of your fitting appointment, you should expect:</h2>
 			<h4>1. A good and comfortable fit</h4>
 			<p>The hearing aids should feel as if you have next to nothing in your ears. There should be no sensation of pressure or discomfort of any kind.</p>
@@ -61,11 +44,3 @@
 			<p>If you have a hearing loss in both ears and wear only one instrument, why not experience the difference two hearing aids will make for you? You’ll wonder why you ever lived with just one.</p>
 			<!-- TODO: Add "HEaring better with hearing aids here" -->
 		</div>
-		<!-- More resources partial -->
-		<?php include '../layout/more_articles_sidebar.php'; ?>
-	</div>
-</div>
-
-<!-- FOOTER -->
-<?php include '../layout/footer.php'; ?>
-<!-- END FOOTER -->

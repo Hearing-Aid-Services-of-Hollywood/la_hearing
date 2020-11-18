@@ -1,30 +1,13 @@
-<?php 
-	// PAGE VARIABLES
-	// Enter values for the variables below
-	$page_title = "Types & Styles of Hearing Instruments";
-	$page_category = "hearing_aids";
-	$page_description = "";
-	$page_keywords = "";
-?>
-
-<!-- HEAD -->
-<?php include '../layout/head.php'; ?>
-<!-- END HEAD -->
-
-<!-- NAVIGATION -->
-<?php include '../layout/navigation.php'; ?>
-<!-- END NAVIGATION -->
-
-<div class="content">
-	<header>
-		<h1><?php print $page_title; ?></h1>
-	</header>
-	<div class="container">
-		<div class="intro">
-			<p class="lead">Hearing aids come in many shapes, styles and sizes, let us find the perfect match for you.</p>
-		</div>
-		<div class="col-sm-8">
-			<img class="img-responsive" src="../images/ria2.jpg" alt="Types and styles of hearing aids" />
+---
+title: "Types & Styles of Hearing Instruments"
+subtitle: "Hearing aids come in many shapes, styles and sizes, let us find the perfect match for you."
+summary: 
+image_url: /assets/images/ria2.jpg
+featured: false
+category: Hearing Aids
+---
+		<div class="col-sm-10 mx-auto">
+			<img class="img-fluid" src="{{'assets/images/ria2.jpg'| relative_url}}" alt="Types and styles of hearing aids" />
 			<hr class="divider" />
 			<div class="content">
 				<h2>Hearing Instruments</h2>
@@ -34,7 +17,7 @@
 				<div class="media">
 				  <div class="media-left">
 				    <a href="#">
-				      <img class="media-object" src="../images/types_styles/bte.jpg" alt="behind the ear hearing aids">
+				      <img class="media-object" src="{{'assets/images/types_styles/bte.jpg' | relative_url}}" alt="behind the ear hearing aids">
 				    </a>
 				  </div>
 				  <div class="media-body">
@@ -45,7 +28,7 @@
 				<div class="media">
 				  <div class="media-left">
 				    <a href="#">
-				      <img class="media-object" src="../images/types_styles/ite.jpg" alt="in the ear hearing aids">
+				      <img class="media-object" src="{{'assets/images/types_styles/ite.jpg' | relative_url}}" alt="in the ear hearing aids">
 				    </a>
 				  </div>
 				  <div class="media-body">
@@ -56,7 +39,7 @@
 				<div class="media">
 				  <div class="media-left">
 				    <a href="#">
-				      <img class="media-object" src="../images/types_styles/itc.jpg" alt="in the canal hearing aids">
+				      <img class="media-object" src="{{'assets/images/types_styles/itc.jpg' | relative_url}}" alt="in the canal hearing aids">
 				    </a>
 				  </div>
 				  <div class="media-body">
@@ -67,7 +50,7 @@
 				<div class="media">
 				  <div class="media-left">
 				    <a href="#">
-				      <img class="media-object" src="../images/types_styles/cic.jpg" alt="completely in the canal hearing aids">
+				      <img class="media-object" src="{{'assets/images/types_styles/cic.jpg' | relative_url}}" alt="completely in the canal hearing aids">
 				    </a>
 				  </div>
 				  <div class="media-body">
@@ -78,7 +61,7 @@
 				<div class="media">
 				  <div class="media-left">
 				    <a href="#">
-				      <img class="media-object" src="../images/types_styles/iic.jpg" alt="invisible in the canal hearing aids">
+				      <img class="media-object" src="{{'assets/images/types_styles/iic.jpg' | relative_url}}" alt="invisible in the canal hearing aids">
 				    </a>
 				  </div>
 				  <div class="media-body">
@@ -89,7 +72,7 @@
 				<div class="media">
 				  <div class="media-left">
 				    <a href="#">
-				      <img class="media-object" src="../images/types_styles/ric.jpg" alt="reciever in canal hearing aids">
+				      <img class="media-object" src="{{'assets/images/types_styles/ric.jpg' | relative_url}}" alt="reciever in canal hearing aids">
 				    </a>
 				  </div>
 				  <div class="media-body">
@@ -100,11 +83,11 @@
 				<div class="media">
 				  <div class="media-left">
 				    <a href="#">
-				      <img class="media-object" src="../images/types_styles/woman-on-cell.jpg" alt="hearing aids la">
+				      <img class="media-object" src="{{'assets/images/types_styles/woman-on-cell.jpg' | relative_url}}" alt="hearing aids la">
 				    </a>
 				  </div>
 				  <div class="media-body">
-				    <p>To learn what hearing aid style will best serve your needs, take a moment to call us at <?php print $office_phone; ?>.</p>
+				    <p>To learn what hearing aid style will best serve your needs, take a moment to call us at {{site.phone}}.</p>
 				  </div>
 				</div>
 				<h2>Power Products For Severe to Profound Hearing Loss</h2>
@@ -113,11 +96,3 @@
 				<p>Phonak’s Naida S III, V and IX are based on the second generation Spice microchip and feature SoundRecover. SoundRecover is a process that moves sounds from high-frequency areas that you can no longer hear to lower frequency bands that you can hear. Studies have shown that, over time, the brain reinterprets the modified information, increasing speech understanding.</p>
 			</div>
 		</div>
-		<!-- More resources partial -->
-		<?php include '../layout/more_articles_sidebar.php'; ?>
-	</div>
-</div>
-
-<!-- FOOTER -->
-<?php include '../layout/footer.php'; ?>
-<!-- END FOOTER -->
