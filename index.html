@@ -4,7 +4,7 @@ layout: default
 <!-- Services -->
 <div id="services" class="section alt-bg">
   <div class="container">
-    <h3 class="text-center mb-5">Our Services</h3>
+    <h3 class="text-center mb-5">Our Services</h3>{% if jekyll.environment == "production" %}hello world{%endif%}
     <div class="row">
         <div class="service col-md-4 col-sm-6">
             <a href="{{site.url}}/fittings">
