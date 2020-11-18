@@ -9,7 +9,7 @@ title: News & Articles
                 <div class="col-sm-6 mx-auto">
                     <h2 class="logo-font mb-4 text-center">
                         <span class="display-4">{{site.blog_title}}</span>
-                        <p class="lead">{{site.blog_one_liner}}</p>
+                        <p class="lead">{{site.blog_one_liner}}</p>{% if jekyll.environment == "production" %}Hello there{%endif%}
                     </h2>
                 </div>
             </div>
