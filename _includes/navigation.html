@@ -1,0 +1,50 @@
+<div class="nav-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 text-left my-auto">
+                <p>7080 Hollywood Blvd #814
+                <br>
+                Los Angeles, CA 90028</p>
+            </div>
+            <div class="col-sm-4 text-center my-auto">
+                <p><a class="navbar-brand scroll-to" href="{{site.url}}" data-scroll-to="#header">{{site.title}}</a></p>
+            </div>
+            <div class="col-sm-4 text-right my-auto">
+                <p>{{site.phone}}</p>
+            </div>
+        </div>    
+    </div>
+</div>
+<div class="navigation">
+    <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a href="{{site.url}}#services" data-scroll-to="#services" class="scroll-to nav-link" title="Hearing and Audiology Services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{site.url}}#about" data-scroll-to="#about" class="scroll-to nav-link" title="About Hearing Aid Services of Hollywood">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{site.url}}#reviews" data-scroll-to="#reviews" class="scroll-to nav-link">Testimonials</a>
+                </li>
+                <li class="nav-item"><a href="{% link blog.html %}" class="nav-link">{{site.blog_title}}</a></li>
+                <li class="nav-item">
+                    <a href="{{site.url}}#contact" class="scroll-to nav-link nav-cta btn rounded-pill btn-icon rounded-pill d-none d-lg-inline-flex" data-scroll-to="#contact">
+                    <span class="cta-icon"><i class="far fa-phone"></i></span>
+                    <span class="cta-text">Appointments</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+</div>
+{% if page.url == '/' %}
+    {% include header.html %}
+{% endif %}

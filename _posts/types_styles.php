@@ -1,0 +1,123 @@
+<?php 
+	// PAGE VARIABLES
+	// Enter values for the variables below
+	$page_title = "Types & Styles of Hearing Instruments";
+	$page_category = "hearing_aids";
+	$page_description = "";
+	$page_keywords = "";
+?>
+
+<!-- HEAD -->
+<?php include '../layout/head.php'; ?>
+<!-- END HEAD -->
+
+<!-- NAVIGATION -->
+<?php include '../layout/navigation.php'; ?>
+<!-- END NAVIGATION -->
+
+<div class="content">
+	<header>
+		<h1><?php print $page_title; ?></h1>
+	</header>
+	<div class="container">
+		<div class="intro">
+			<p class="lead">Hearing aids come in many shapes, styles and sizes, let us find the perfect match for you.</p>
+		</div>
+		<div class="col-sm-8">
+			<img class="img-responsive" src="../images/ria2.jpg" alt="Types and styles of hearing aids" />
+			<hr class="divider" />
+			<div class="content">
+				<h2>Hearing Instruments</h2>
+				<p>We strive to ensure that our patients achieve a better quality of life through improved hearing. At our facility, all leading brands of hearing aids are available in every style and size, including the latest digital and completely-in-the-canal hearing aids. We carry Widex, Phonak, Oticon, GN ReSound and Siemens premium hearing instruments. A complete selection of budget-friendly digital models is also available.</p>
+				<p>After a thorough hearing evaluation, an individual treatment plan is developed to address each patient’s unique hearing loss, lifestyle and preferences. We prescribe specific makes, models and special circuits to maximize hearing capabilities. Our comprehensive programs include extensive follow-up, counseling, testing and on-site servicing.</p>
+				<h2>Hearing Aid Styles</h2>
+				<div class="media">
+				  <div class="media-left">
+				    <a href="#">
+				      <img class="media-object" src="../images/types_styles/bte.jpg" alt="behind the ear hearing aids">
+				    </a>
+				  </div>
+				  <div class="media-body">
+				    <h4 class="media-heading">Behind-the-ear (BTE)</h4>
+				    <p>Behind-the-ear (BTE) combines a slim factory assembled case worn atop the ear with a separate mold fitted in the ear. BTEs are generally recommended for severe to profound hearing loss.</p>
+				  </div>
+				</div>
+				<div class="media">
+				  <div class="media-left">
+				    <a href="#">
+				      <img class="media-object" src="../images/types_styles/ite.jpg" alt="in the ear hearing aids">
+				    </a>
+				  </div>
+				  <div class="media-body">
+				    <h4 class="media-heading">Full shell in-the-ear (ITE)</h4>
+				    <p>Full shell in-the-ear (ITE) is the largest custom style and features a wide choice of options. We recommend full shell ITEs for people with severe hearing loss who prefer an in-the-ear product.</p>
+				  </div>
+				</div>
+				<div class="media">
+				  <div class="media-left">
+				    <a href="#">
+				      <img class="media-object" src="../images/types_styles/itc.jpg" alt="in the canal hearing aids">
+				    </a>
+				  </div>
+				  <div class="media-body">
+				    <h4 class="media-heading">In-the-canal (ITC)</h4>
+				    <p>In-the-canal (ITC) is smaller and is fitted into the opening of the ear canal. The ITC is not suitable for certain losses, canal shapes, or if manipulation of small features and batteries is difficult.</p>
+				  </div>
+				</div>
+				<div class="media">
+				  <div class="media-left">
+				    <a href="#">
+				      <img class="media-object" src="../images/types_styles/cic.jpg" alt="completely in the canal hearing aids">
+				    </a>
+				  </div>
+				  <div class="media-body">
+				    <h4 class="media-heading">Completely in-the-canal (CIC)</h4>
+				    <p>Completely in-the-canal (CIC) instruments are recessed into the canal. CICs are barely visible and deep fit CICs are 100 percent concealed within the ear canal. CICs are not suitable for certain losses, ear canal shapes or medical conditions of the ear.</p>
+				  </div>
+				</div>
+				<div class="media">
+				  <div class="media-left">
+				    <a href="#">
+				      <img class="media-object" src="../images/types_styles/iic.jpg" alt="invisible in the canal hearing aids">
+				    </a>
+				  </div>
+				  <div class="media-body">
+				    <h4 class="media-heading">Invisible-in-the-canal (IIC)</h4>
+				    <p>Invisible-in-the-canal (IIC) instruments lie out of sight, about a half an inch inside the ear canal so they are completely invisible.</p>
+				  </div>
+				</div>
+				<div class="media">
+				  <div class="media-left">
+				    <a href="#">
+				      <img class="media-object" src="../images/types_styles/ric.jpg" alt="reciever in canal hearing aids">
+				    </a>
+				  </div>
+				  <div class="media-body">
+				    <h4 class="media-heading">Receiver-in-canal (RIC)</h4>
+				    <p>Receiver-in-canal (RIC) instruments consist of a virtually unseen behind-the-ear processor connected by a thin wire to a small receiver hidden in the ear canal.</p>
+				  </div>
+				</div>
+				<div class="media">
+				  <div class="media-left">
+				    <a href="#">
+				      <img class="media-object" src="../images/types_styles/woman-on-cell.jpg" alt="hearing aids la">
+				    </a>
+				  </div>
+				  <div class="media-body">
+				    <p>To learn what hearing aid style will best serve your needs, take a moment to call us at <?php print $office_phone; ?>.</p>
+				  </div>
+				</div>
+				<h2>Power Products For Severe to Profound Hearing Loss</h2>
+				<p>For those of you with severe to profound hearing losses there are two products that will make a significant improvement in your ability to understand speech in all listening situations.</p>
+				<p>The Oticon Chili V, VII and IX are based on the RISE 2 microchip. These products work in tandem to automatically locate speech using directional microphones. Speech Guard and noise reduction technologies enhance the speech while decreasing interfering noise.</p>
+				<p>Phonak’s Naida S III, V and IX are based on the second generation Spice microchip and feature SoundRecover. SoundRecover is a process that moves sounds from high-frequency areas that you can no longer hear to lower frequency bands that you can hear. Studies have shown that, over time, the brain reinterprets the modified information, increasing speech understanding.</p>
+			</div>
+		</div>
+		<!-- More resources partial -->
+		<?php include '../layout/more_articles_sidebar.php'; ?>
+	</div>
+</div>
+
+<!-- FOOTER -->
+<?php include '../layout/footer.php'; ?>
+<!-- END FOOTER -->

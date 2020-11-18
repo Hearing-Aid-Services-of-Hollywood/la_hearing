@@ -1,0 +1,58 @@
+<?php 
+	// PAGE VARIABLES
+	// Enter values for the variables below
+	$page_title = "Wireless Accessories";
+	$page_category = "assisted_listening";
+	$page_description = "";
+	$page_keywords = "";
+?>
+
+<!-- HEAD -->
+<?php include '../layout/head.php'; ?>
+<!-- END HEAD -->
+
+<!-- NAVIGATION -->
+<?php include '../layout/navigation.php'; ?>
+<!-- END NAVIGATION -->
+
+<div class="content">
+	<header>
+		<h1><?php print $page_title; ?></h1>
+	</header>
+	<div class="container">
+		<div class="intro">
+			<p class="lead">Talk on the phone, watch TV, and listen to music with ease</p>
+		</div>
+		<div class="col-sm-8">
+			<h2>ConnectLine</h2>
+			<h3>If You Can Push a Button, You Can Operate ConnectLine</h3>
+			<img src="../images/types_styles/streamer.jpg" alt="" class="pull-right pull-img">
+			<p>For some people with severe hearing loss, there are situations that are difficult to manage even when using premium hearing devices. Now, with Oticon’s ConnectLine products, you can enjoy talking on the phone, watching TV and listening to music at the touch of a button.</p>
+			<p>ConnectLine products provide improved speech intelligibility and sound quality by inputting sound directly to your hearing aids via the Oticon Streamer Pro. The Streamer Pro is a device worn around the neck and requires only a push of a button to activate the function you desire.</p>
+			<h3>A Fully Integrated Phone System</h3>
+			<p>The Streamer Pro, when coupled with the ConnectLine phone module, enables you to connect to your landline phone without picking up the handset. When you receive an incoming call, your Streamer Pro sends the signal from your phone directly to both of your hearing aids. Rather than hassling with the phone receiver or using an assistive phone to improve audibility, you simply push a button on the Streamer Pro. You will experience higher speech intelligibility and be able to take your calls immediately without having to rush to the phone.</p>
+			<p>The system also allows you to place a call as you would normally. Once you complete dialing a number, the call is immediately transferred to your hearing aids.</p>
+			<p>The Streamer Pro turns your cell phone into a hands-free mobile headset so you no longer have to use an awkward Bluetooth™ earpiece when phoning. Your cell phone must be coupled with the Streamer Pro just once for effortless hearing.</p>
+			<h3>Dynamic TV Sound Quality</h3>
+			<p>The ConnectLine system wirelessly transmits the TV sound directly to your hearing aids. If your phone rings while watching TV, the Streamer Pro will alert you immediately. Pushing one button automatically switches off the sound from the TV and activates the phone so you can speak to the caller.</p>
+			<h3>Music/Computers</h3>
+			<p>The Streamer Pro connects to radios and MP3 players through Bluetooth or cable. Audio is transmitted in high fidelity to both ears for a more pleasurable listening experience.</p>
+			<h3>Find Out More</h3>
+			<p>For more information on how streamers operate, go to the “Assistive Listening” link on our website. Of course, you are always welcome to contact Jeff at <?php print $office_phone; ?>, and he will answer any questions concerning ConnectLine.</p>
+			<h2>Streaming</h2>
+			<p class="lead">Have you ever had to use your cell phone in a din of noise and couldn’t understand the caller? Would you like to hear your television more clearly?</p>
+			<img src="../images/types_styles/streamer2.jpg" alt="" class="pull-left pull-img">
+			<p> Today, there are new technologies that help you connect to any audio source with ease. But, the best news is that you can hear with maximum fidelity because the audio input is transmitted directly into your hearing aids. These assistive devices are known as streamers.</p>
+			<p>Streamers allow present-day digital hearing aids to connect wirelessly to BluetoothTM, or wired and wireless audio devices (cell phones, televisions, MP3 players and computers). All streamers fit in the palm of your hand and use a rechargeable battery, so they are unobtrusive and maintenance is minimal.</p>
+			<p>An audio source needs to be paired with the streamer only once. For example, when you turn on your phone, you connect with a simple push of a button on the streaming device. Both of your hearing aids will automatically receive the audio signal whenever you make or receive a call. A side benefit of streaming with a telephone is having both hands free so you can do other tasks while conversing.</p>
+			<p>Each manufacturer offers a proprietary streamer that works seamlessly with its hearing aid product line. In addition to providing audio input from external sources, streaming devices function as remote controls for your hearing aids, allowing you to change programs and make volume adjustments in a flash.</p>
+			<p>For more information about streaming solutions, please give me a call.</p>
+		</div>
+		<!-- More resources partial -->
+		<?php include '../layout/more_articles_sidebar.php'; ?>
+	</div>
+</div>
+
+<!-- FOOTER -->
+<?php include '../layout/footer.php'; ?>
+<!-- END FOOTER -->

@@ -1,0 +1,88 @@
+<?php 
+	// PAGE VARIABLES
+	// Enter values for the variables below
+	$page_title = "Risks Without Hearing Correction";
+	$page_category = "hearing_loss";
+	$page_description = "";
+	$page_keywords = "";
+?>
+
+<!-- HEAD -->
+<?php include '../layout/head.php'; ?>
+<!-- END HEAD -->
+
+<!-- NAVIGATION -->
+<?php include '../layout/navigation.php'; ?>
+<!-- END NAVIGATION -->
+
+<div class="content">
+	<header>
+		<h1><?php print $page_title; ?></h1>
+	</header>
+	<div class="container">
+		<div class="col-sm-8">
+			<h2>Symptoms and Causes of Hearing Loss</h2>
+			<img class="img-responsive" src="../images/hearing-loss.jpg" alt="Risks without hearing correction" />
+			<hr class="divider" />
+			<div class="content">
+				<p class="lead">If you are experiencing one or more of these eleven difficulties, it may be time for you to schedule a hearing evaluation.</p>
+				<ul>
+					<li>People seem to be mumbling.</li>
+					<li>You have to strain to hear when others talk or whisper to you.</li>
+					<li>You have trouble hearing someone call you from behind or from another room.</li>
+					<li>You need to watch a speaker's lips closely to follow the conversation.</li>
+					<li>You often have to turn up the volume on the TV, radio or stereo.</li>
+					<li>Following a conversation in meetings or lectures is difficult.</li>
+					<li>You have trouble hearing at the movies, live theater or at other entertainment venues.</li>
+					<li>You find it difficult to hear clearly on the telephone.</li>
+					<li>Family, friends or colleagues often have to repeat what they say to you.</li>
+					<li>It's hard to hear in noisy environments, such as in restaurants or at parties.</li>
+					<li>You tend to limit your social activities because it's hard to hear and carry on a conversation.</li>
+				</ul>
+				<h4>What causes hearing loss?</h4>
+				<p>People often question what causes hearing loss and whether it can be prevented. The truth is sometimes hearing loss cannot be prevented while, in other instances, it can be deterred or minimized by taking proper precautions.</p>
+				<p>Causes beyond our control include: The natural process of aging, hereditary and genetic factors, extremely high fever or illness, birth defects, traumatic head injuries, and toxic drugs such as chemotherapy and mycins. Causes which we may have at least some degree of control over include: Ear wax, allergies, and exposure to loud or constant noise.</p>
+				<p>It is a good idea to have your ears checked periodically for wax so that build-up can be prevented. We will gladly inspect your ears if you suspect a wax problem.</p>
+				<p>Exposure to loud noise is a common cause of hearing loss. Listening to loud music or working in a noisy environment over a long period of time produces a high frequency loss. Additionally, firing a gun or rifle should only be done with hearing protection. It only takes firing one shot to permanently damage hearing.</p>
+				<p>We recommend that you always take proper precautions to prevent damage to your hearing. If you have questions about situations that may cause hearing loss, contact our office.</p>
+			</div>
+			<div class="content-group row">
+				<h2>I Don't Have A Hearing Loss</h2>
+				<p class="lead">Does this sound familiar? "I don't have a hearing loss. I just can't understand people."</p>
+				<div class="col-sm-4">
+					<img class="img-responsive" src="../images/common-questions.jpg" alt="Hearing problem" />
+				</div>
+				<p>Hearing loss comes on so gradually that people may not realize they are missing anything. They find it more difficult to understand television or radio even when the volume is turned up. Trying to comprehend what women and children say is especially frustrating.</p>				
+				<p>Going to live plays is usually a major disappointment. People think that modern actors do not know how to speak clearly. However, it is more likely that they cannot hear the high-pitched consonants of the actors' speech. The same holds true for movies, lectures and sermons.</p>
+				<p>Listening to music is no longer as enjoyable. It sounds monotone, flat and dull.</p>
+				<p>When talking to others, hearing impaired people probably lean toward the speaker to read lips without realizing they are doing it. They feel exhausted, having used up so much energy trying to hear. What would life be like without having to struggle so hard?</p>
+				<p>Attempting to socialize in an environment with background noise is very frustrating. It is likely that people stay away from restaurants and parties. After all, why should they bother going when it is impossible to understand anybody? Every day, these problems get worse.</p>
+				<p>These are the symptoms of hearing impairment. The first step is to arrange for a hearing test in our office. Chances are that being fitted with hearing aids will prove to be the best solution.</p>
+				<p>A person who has a hearing loss and is doing nothing about it is cutting out an essential part of life. Share this article with friends and relatives who have a hearing loss. Have them contact us for an appointment to receive a FREE hearing screening</p>
+				<h4>Do you really need hearing aids?</h4>
+				<p>More than 30 million Americans suffer from hearing impairment. Usually the onset is gradual, happening so slowly that the affected person may not be aware of the problem. Family members and friends are often the first to notice. Hearing impairment can alter one’s behavior, which may appear to others as a personality change. Modern hearing aid technology offers nearly everyone a practical, powerful and affordable solution for hearing loss.</p>
+				<p>You should consider your lifestyle, occupational demands and the feelings of family and friends to determine how and when you take the opportunity to improve your hearing. Let us evaluate your personal situation and provide a no-charge in-office demonstration. All hearing aid fittings offer a 45-day trial and a money-back guarantee. Contact us to schedule an appointment.</p>
+			</div>
+			<div class="content-group row">
+				<h2>Untreated Hearing Loss</h2>
+				<p class="lead">The impact of hearing loss extends beyond communication problems. People with untreated hearing loss have a lower quality of life that may affect their emotional, social and even their physical well-being.</p>
+				<div class="col-sm-4">
+					<img class="img-responsive" src="../images/untreated-hearing.jpg" alt="Untreated Hearing Loss" />
+				</div>
+				<div class="col-sm-8">
+					<p>For those without hearing aids, keeping up with conversations and overcoming the anxiety of being in social settings may result in stress-related psychological symptoms. These include embarrassment, depression, frustration, anxiety, insecurity and low self-esteem. Untreated hearing loss can also make a person irritable and less tolerant of others.</p>
+					<p>Common social problems for people with untreated hearing loss include withdrawal from social contact, inattentiveness and lack of concentration. These individuals often pretend to understand in order to mask their disability. Research has shown that 71% of hard-of-hearing people felt isolated because of their hearing loss, 40% avoided meeting new people, and 91% had difficulties coping in public places.</p>
+				</div>
+				<p>Oftentimes, people suffering from untreated hearing loss exhibit physical problems that can include exhaustion, headache and vertigo. Eating and sleep disorders, stomach problems and high blood pressure are also associated with this condition. Surveys by the National Council on Aging indicate that physical symptoms lessen or disappear completely when the hearing impaired are treated with properly-fitted hearing aids.</p>
+				<p>It is important to be aware of these potential signs in order to recognize them in our friends and loved ones. A person afflicted with a hearing loss may be unaware of his difficulty, making it necessary for others to intervene to help him.</p>
+				<p>An individual who seeks help at the first signs of hearing loss will reap the maximum rewards possible from amplification. Although hearing aids do not cure hearing loss, those who are fitted appropriately enjoy a more fulfilling quality of life.</p>
+			</div>
+		</div>
+		<!-- More resources partial -->
+		<?php include '../layout/more_articles_sidebar.php'; ?>
+	</div>
+</div>
+
+<!-- FOOTER -->
+<?php include '../layout/footer.php'; ?>
+<!-- END FOOTER -->

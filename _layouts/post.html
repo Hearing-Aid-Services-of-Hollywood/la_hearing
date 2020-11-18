@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<div class="post">
+    <div class="page-header">
+		<div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-8 mx-auto">
+                    <h2 class="logo-font mb-4 text-center">
+                        <span class="display-4">{{page.title}}</span>
+                        <p class="lead">{{page.subtitle}}</p>
+                    </h2>
+                </div>
+            </div>
+        </div>
+	</div>
+	<!-- Post Content -->
+	<article>
+	    <div class="container">
+	        <div class="row">
+				<div class="col-md-12">
+					<span class="previous">
+						<a class="pager" href="{% link blog.html %}">&larr; Back to Articles</a>
+					</span>
+	            </div>
+	            <div class="col-md-12 mx-auto post-content">
+	                {{content}}
+				</div>
+				<div class="col-md-12">
+					<span class="previous">
+						<a class="pager" href="{% link blog.html %}">&larr; Back to Articles</a>
+					</span>
+	            </div>
+	        </div>
+	    </div>
+	</article>
+</div>
