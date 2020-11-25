@@ -7,67 +7,34 @@ layout: default
     <h3 class="text-center mb-5">Our Services</h3>
     <div class="row">
         <div class="service col-md-4 col-sm-6">
-            <a href="{{site.url}}/fittings">
+            <a href="{% link hearing-instruments.html %}">
             <div class="card text-center">
                 <div class="icon px-4 py-3"><img src="{{ 'assets/images/fitting.jpg' | relative_url }}" alt="Hearing Aid Fitting Los Angeles, CA" class="img-fluid img-thumbnail"></div>
                 <div class="text px-4 pb-5">
-                    <h5>Hearing Aid Fittings</h5>
-                    <p>Fitting hearing aids correctly is both an art and a science.</p>
+                    <h5>Hearing Instruments</h5>
+                    <p>Fitting, programming, and configuration of your hearing instuments.</p>
                 </div>
             </div>
             </a>
         </div>
         <div class="service col-md-4 col-sm-6">
-            <a href="{{site.url}}/adjustments">
+            <a href="{% link maintenance.html %}">
             <div class="card text-center">
                 <div class="icon px-4 py-3"><img src="{{ 'assets/images/adjusting_replacing.jpg' | relative_url }}" alt="Hearing Aid Fitting Los Angeles, CA" class="img-fluid img-thumbnail"></div>
                 <div class="text px-4 pb-5">
-                    <h5>Adjusting and Replacing</h5>
-                    <p>When is it time to get your hearing instrument adjusted?.</p>
+                    <h5>Hearing Aid Maintenance</h5>
+                    <p>Providing repairs, adjustments, and cleaning of your hearing aids.</p>
                 </div>
             </div>
             </a>
         </div>
         <div class="service col-md-4 col-sm-6">
-            <a href="{{site.url}}/audiology">
+            <a href="{% link audiology.html %}">
             <div class="card text-center">
                 <div class="icon px-4 py-3"><img src="{{ 'assets/images/adjustments.jpg' | relative_url }}" alt="Hearing Aid Fitting Los Angeles, CA" class="img-fluid img-thumbnail"></div>
                 <div class="text px-4 pb-5">
                     <h5>Audiology Services</h5>
                     <p>Our audiology services include an array of audiological evaluation and testing.</p>
-                </div>
-            </div>
-            </a>
-        </div>
-        <div class="service col-md-4 col-sm-6">
-            <a href="{{site.url}}/repairs">
-            <div class="card text-center">
-                <div class="icon px-4 py-3"><img src="{{ 'assets/images/service_repair.jpg' | relative_url }}" alt="Hearing Aid Fitting Los Angeles, CA" class="img-fluid img-thumbnail"></div>
-                <div class="text px-4 pb-5">
-                    <h5>Hearing Aid Service & Repairs</h5>
-                    <p>Jeff Grama, our audiologist, provides a complete hearing service to his patients.</p>
-                </div>
-            </div>
-            </a>
-        </div>
-        <div class="service col-md-4 col-sm-6">
-            <a href="{{site.url}}/tinnitus">
-            <div class="card text-center">
-                <div class="icon px-4 py-3"><img src="{{ 'assets/images/tinnitus_alt.jpg' | relative_url }}" alt="Hearing Aid Fitting Los Angeles, CA" class="img-fluid img-thumbnail"></div>
-                <div class="text px-4 pb-5">
-                    <h5>Tinnitus Relief</h5>
-                    <p>Manage the ringing, roaring, chirping, swishing, thumping or hissing sounds.</p>
-                </div>
-            </div>
-            </a>
-        </div>
-        <div class="service col-md-4 col-sm-6">
-            <a href="{{site.url}}/questions">
-            <div class="card text-center">
-                <div class="icon px-4 py-3"><img src="{{ 'assets/images/common_questions.jpg' | relative_url }}" alt="Hearing Aid Fitting Los Angeles, CA" class="img-fluid img-thumbnail"></div>
-                <div class="text px-4 pb-5">
-                    <h5>Common Hearing Aid Questions</h5>
-                    <p>There can be some confusion when it comes to what's right for your hearing.</p>
                 </div>
             </div>
             </a>
@@ -122,26 +89,13 @@ layout: default
                 <p>Thousands of Southern Californians agree that Hearing Aid Services of Hollywood is the right choice for their audiology needs.</p>
             </div>
             <div class="fluid-paragraph text-center mt-5">
-                <p><a href="#">Meet Jeff Grama, M.A.</a> and learn what to consider when selecting an audiologist.</p>
+                <p><a href="{% post_url 2020-11-17-meet-audiologist %}">Meet Jeff Grama, M.A.</a> and learn what to consider when selecting an audiologist.</p>
             </div>
+            <div class="fluid-paragraph text-center">
+                <a href="#" data-toggle="modal" data-target="#hearing_bargain" class="btn cta-btn rounded-pill dark">Are You Looking for a Hearing Aid Bargain?</a>
+            </div>
+            {% include bargain.html %}
         </div>
-    </div>
-</div>
-
-<!-- Outro -->
-<div id="outro" class="section text-center parallax-section bg-gradient" style="background-image:url({{ 'assets/images/outro.jpg' | relative_url }})">
-    <div class="container">
-        <h1 class="text-white">Schedule an Appointment</h1>
-        <p class="lead text-white mt-4">To make an appointment, please call our office and we will be happy to get you started.</p>
-        <p class="lead text-white"><strong>Office hours are 9am to 5pm.</strong></p>
-        <a href="{{site.url}}#contact" data-scroll-to="#contact" class="scroll-to cta-btn dark btn rounded-pill btn-icon rounded-pill d-none d-lg-inline-flex">
-            <span class="cta-icon"><i class="far fa-envelope"></i></span>
-            <span class="cta-text">Email us</span>
-        </a>
-        <a href="https://www.google.com/maps/dir//Hearing+Aid+Services+of+Hollywood,+Hollywood+Boulevard+%23814,+Los+Angeles,+CA/@34.1011453,-118.4144968,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80c2bf205f5b6bef:0x10858db96aa45d39!2m2!1d-118.3444567!2d34.1011652" target="_blank" class="scroll-to cta-btn light btn rounded-pill btn-icon rounded-pill d-none d-lg-inline-flex">
-            <span class="cta-icon"><i class="far fa-map"></i></span>
-            <span class="cta-text">Get Directions</span>
-        </a>
     </div>
 </div>
 
@@ -182,3 +136,23 @@ layout: default
         </div>
     </div>
 </div>
+
+<!-- Outro -->
+<div id="outro" class="section text-center parallax-section bg-gradient" style="background-image:url({{ 'assets/images/outro.jpg' | relative_url }})">
+    <div class="container">
+        <h1 class="text-white">Schedule an Appointment</h1>
+        <p class="lead text-white mt-4">To make an appointment, please call our office and we will be happy to get you started.</p>
+        <p class="lead text-white"><strong>Office hours are 9am to 5pm.</strong></p>
+        <a href="{{site.url}}#contact" data-scroll-to="#contact" class="scroll-to cta-btn dark btn rounded-pill btn-icon rounded-pill d-none d-lg-inline-flex">
+            <span class="cta-icon"><i class="far fa-envelope"></i></span>
+            <span class="cta-text">Email us</span>
+        </a>
+        <a href="https://www.google.com/maps/dir//Hearing+Aid+Services+of+Hollywood,+Hollywood+Boulevard+%23814,+Los+Angeles,+CA/@34.1011453,-118.4144968,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80c2bf205f5b6bef:0x10858db96aa45d39!2m2!1d-118.3444567!2d34.1011652" target="_blank" class="scroll-to cta-btn light btn rounded-pill btn-icon rounded-pill d-none d-lg-inline-flex">
+            <span class="cta-icon"><i class="far fa-map"></i></span>
+            <span class="cta-text">Get Directions</span>
+        </a>
+    </div>
+</div>
+
+{% include questions.html %}
+{% include veterans.html %}
