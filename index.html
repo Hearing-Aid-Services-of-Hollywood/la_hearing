@@ -100,10 +100,10 @@ layout: default
 </div>
 
 <!-- Reviews -->
-<div id="reviews" class="section alt-bg">
+<div id="reviews" class="section parallax-section bg-gradient" style="background-image:url({{ 'assets/images/outro.jpg' | relative_url }})">
     <div class="container">
-        <div class="mb-5 text-center">
-            <h3 class=" mt-4">What our patients say</h3>
+        <div class="mb-5 text-center text-white">
+            <h3 class=" mt-4 text-white">What our patients say</h3>
             <div class="fluid-paragraph mt-3">
                 <p class="lead lh-180">At Hearing Aid Services of Hollywood, we strive to make our patients feel as welcome and comfortable as possible.</p>
             </div>
@@ -134,23 +134,6 @@ layout: default
             {% endif %}
         {% endfor %}
         </div>
-    </div>
-</div>
-
-<!-- Outro -->
-<div id="outro" class="section text-center parallax-section bg-gradient" style="background-image:url({{ 'assets/images/outro.jpg' | relative_url }})">
-    <div class="container">
-        <h1 class="text-white">Schedule an Appointment</h1>
-        <p class="lead text-white mt-4">To make an appointment, please call our office and we will be happy to get you started.</p>
-        <p class="lead text-white"><strong>Office hours are 9am to 5pm.</strong></p>
-        <a href="{{site.url}}#contact" data-scroll-to="#contact" class="scroll-to cta-btn dark btn rounded-pill btn-icon rounded-pill d-none d-lg-inline-flex">
-            <span class="cta-icon"><i class="far fa-envelope"></i></span>
-            <span class="cta-text">Email us</span>
-        </a>
-        <a href="https://www.google.com/maps/dir//Hearing+Aid+Services+of+Hollywood,+Hollywood+Boulevard+%23814,+Los+Angeles,+CA/@34.1011453,-118.4144968,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80c2bf205f5b6bef:0x10858db96aa45d39!2m2!1d-118.3444567!2d34.1011652" target="_blank" class="scroll-to cta-btn light btn rounded-pill btn-icon rounded-pill d-none d-lg-inline-flex">
-            <span class="cta-icon"><i class="far fa-map"></i></span>
-            <span class="cta-text">Get Directions</span>
-        </a>
     </div>
 </div>
 
